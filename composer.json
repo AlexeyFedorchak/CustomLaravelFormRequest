@@ -1,0 +1,15 @@
+{
+    "name": "custom-laravel-form-request/validator",
+    "description": "Validator Form Request which may be used for validating data after parsing. For example we got big jsob string and we cannot change this, so what we need to do is to use Validator in laravel and provide in controller all the shit code like rules.. if fails and another. This class can validate this json after parsing without redundant code in controller, simply add data, next validation steps will processed automatically, rules and another logic is hidden in this class.",
+    "authors": [
+        {
+            "name": "OleksiiFedorchak",
+            "email": "ofedorchak68@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/framework": "5.7.*"
+    }
+}
